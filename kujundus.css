@@ -1,0 +1,28 @@
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,91,1) 25%, rgba(0,212,255,1) 100%);
+}
+.navbar {
+    background-color: slategrey;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbar a {
+    float: right;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+.navbar a:hover {
+    color: blue;
+}
+.navbar a.active {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    
+
+}
